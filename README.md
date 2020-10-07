@@ -1,6 +1,7 @@
 # cs-means
 Pre-requisites- 
   - Java 1.8
+
 Steps to run the application
   1.	Update the “data.file.csv.location” attribute in “application.properties” file and mention the directory/folder where all the csv files are located.
       Note- All the data files need to be in csv format and must be placed in same directory
