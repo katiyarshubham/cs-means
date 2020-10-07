@@ -1,5 +1,5 @@
 # cs-means clustering algorithm
-### Pre-requisites- 
+### Pre-requisites 
   - Java 1.8
 
 ### Running the application
@@ -7,13 +7,13 @@
       
       Note- All the data files need to be in csv format and must be placed in same directory
   2.	Update the log file location in “application.properties” and “log4J.properties” file
-  3.	Start the application and open the url-
+  3.	Start the application and access the url-
   
       http://<server>:8080/api/cs-mean/create-cluster?fileName=iris_dataset&noOfFeature=4&clusterStrictness=10
       
-      filename- Name of the data file needs to 
-      noOfFeature- Number of the features in data file
-      clusterStrictness- Cluster strictness
+      filename- Name of the data file (in csv) 
+      noOfFeature- Number of the features
+      clusterStrictness- Cluster strictness (level-of-similarity)
   
   ### Associated Paper
   
