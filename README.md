@@ -9,6 +9,7 @@ Steps to run the application
   2.	Update the log file location in “application.properties” and “log4J.properties” file
   3.	Start the application and hit the below url-
       http://<server>:8080/api/cs-mean/create-cluster?fileName=iris_dataset&noOfFeature=4&clusterStrictness=10
+  
       filename- Name of the data file needs to 
       noOfFeature- Number of the features in data file
       clusterStrictness- Cluster strictness
